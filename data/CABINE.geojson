@@ -1,0 +1,35 @@
+{
+    "type": "FeatureCollection",
+    "name": "Cabine",
+    "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+    "features": [
+    { "type": "Feature", "properties": { "Name": "PPRO7-2", "description": null }, "geometry": { "type": "Point", "coordinates": [ 15.222467995037309, -4.51116158314757 ] } },
+    { "type": "Feature", "properties": { "Name": "PPRO7-3", "description": null }, "geometry": { "type": "Point", "coordinates": [ 15.22590314840858, -4.513295539013589 ] } },
+    { "type": "Feature", "properties": { "Name": "PPRO7-4", "description": null }, "geometry": { "type": "Point", "coordinates": [ 15.224776891216139, -4.515078085115934 ] } },
+    { "type": "Feature", "properties": { "Name": "PPRO7-6", "description": null }, "geometry": { "type": "Point", "coordinates": [ 15.217932757258261, -4.507860918221114 ] } },
+    { "type": "Feature", "properties": { "Name": "PPRO7-7", "description": null }, "geometry": { "type": "Point", "coordinates": [ 15.219150457734489, -4.510393624048988 ] } },
+    { "type": "Feature", "properties": { "Name": "PPRO8-1", "description": null }, "geometry": { "type": "Point", "coordinates": [ 15.208225442248141, -4.511998104290298 ] } },
+    { "type": "Feature", "properties": { "Name": "PPRO8-2", "description": null }, "geometry": { "type": "Point", "coordinates": [ 15.209341963596, -4.507564904008866 ] } },
+    { "type": "Feature", "properties": { "Name": "PPRO8-3", "description": null }, "geometry": { "type": "Point", "coordinates": [ 15.210838087850799, -4.506650755448327 ] } },
+    { "type": "Feature", "properties": { "Name": "PPRO8-4", "description": null }, "geometry": { "type": "Point", "coordinates": [ 15.20806186968284, -4.507384337910116 ] } },
+    { "type": "Feature", "properties": { "Name": "PPRO8-5", "description": null }, "geometry": { "type": "Point", "coordinates": [ 15.20798092026773, -4.508017629619023 ] } },
+    { "type": "Feature", "properties": { "Name": "PPRO9-1'", "description": null }, "geometry": { "type": "Point", "coordinates": [ 15.19439891900439, -4.484156187412356 ] } },
+    { "type": "Feature", "properties": { "Name": "PPRO9-2'", "description": null }, "geometry": { "type": "Point", "coordinates": [ 15.192298455290199, -4.483478240511877 ] } },
+    { "type": "Feature", "properties": { "Name": "PPRO9-3'", "description": null }, "geometry": { "type": "Point", "coordinates": [ 15.19137908566424, -4.483740836556439 ] } },
+    { "type": "Feature", "properties": { "Name": "PPRO9-4'", "description": null }, "geometry": { "type": "Point", "coordinates": [ 15.19470576022357, -4.485522158302624 ] } },
+    { "type": "Feature", "properties": { "Name": "PPRO9-5'", "description": "CABINE" }, "geometry": { "type": "Point", "coordinates": [ 15.199340440867561, -4.490767995085994 ] } },
+    { "type": "Feature", "properties": { "Name": "PPRO9-7'", "description": null }, "geometry": { "type": "Point", "coordinates": [ 15.198862282620579, -4.489266373001437 ] } },
+    { "type": "Feature", "properties": { "Name": "PPRO9-8'", "description": null }, "geometry": { "type": "Point", "coordinates": [ 15.1943183156337, -4.486137437565717 ] } },
+    { "type": "Feature", "properties": { "Name": "PPRO9-9'", "description": null }, "geometry": { "type": "Point", "coordinates": [ 15.19346164494474, -4.484889219607159 ] } },
+    { "type": "Feature", "properties": { "Name": "PPRO9-13\/1", "description": null }, "geometry": { "type": "Point", "coordinates": [ 15.196545559997981, -4.488959413032051 ] } },
+    { "type": "Feature", "properties": { "Name": "PPRO9-13\/2", "description": null }, "geometry": { "type": "Point", "coordinates": [ 15.19651736864515, -4.48466223584839 ] } },
+    { "type": "Feature", "properties": { "Name": "PPRO9-13\/3", "description": null }, "geometry": { "type": "Point", "coordinates": [ 15.196363875180699, -4.483712373066044 ] } },
+    { "type": "Feature", "properties": { "Name": "PPRO9-13\/4", "description": null }, "geometry": { "type": "Point", "coordinates": [ 15.196364404205131, -4.485693601406767 ] } },
+    { "type": "Feature", "properties": { "Name": "PPRO11-1", "description": null }, "geometry": { "type": "Point", "coordinates": [ 15.243821423497341, -4.478867144132955 ] } },
+    { "type": "Feature", "properties": { "Name": "PPRO11-2", "description": null }, "geometry": { "type": "Point", "coordinates": [ 15.24094570859979, -4.478117223136551 ] } },
+    { "type": "Feature", "properties": { "Name": "PPRO11-3", "description": null }, "geometry": { "type": "Point", "coordinates": [ 15.240945483680189, -4.477429675500506 ] } },
+    { "type": "Feature", "properties": { "Name": "PPRO11-4", "description": null }, "geometry": { "type": "Point", "coordinates": [ 15.24401001036513, -4.476732065118971 ] } },
+    { "type": "Feature", "properties": { "Name": "PPRO11-5", "description": null }, "geometry": { "type": "Point", "coordinates": [ 15.244533698448381, -4.479373520175653 ] } }
+    ]
+    }
+    
