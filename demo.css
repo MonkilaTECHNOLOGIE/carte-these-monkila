@@ -9,3 +9,9 @@
     width: 100%;
     height: 400px;
 } */
+
+@media print{
+    #btn{
+        display: none;
+    }
+}
