@@ -33,15 +33,12 @@ function showGeoJSONData(map) {
     }
   });
 
-
   // Start parsing the file
   reader1.parse();
   reader2.parse();
   reader3.parse();
   reader4.parse();
-
-
-
+  
   // Add layer which shows GeoJSON data on the map
   map.addLayer(reader1.getLayer());
   map.addLayer(reader2.getLayer());
@@ -73,45 +70,6 @@ function addInfoBubble(map) {
 
     ui.addBubble(bubble);
   }, false);
-
-  // var dataC = JSON.stringify({
-  //   "collection": "cabine",
-  //   "database": "db-monkila",
-  //   "dataSource": "db-monkila",
-  // });
-
-  // var config = {
-  //   method: 'post',
-  //   url: 'https://cors-anywhere.herokuapp.com/https://data.mongodb-api.com/app/data-pcwkb/endpoint/data/v1/action/find',
-  //   headers: {
-  //     'Content-Type': 'application/json',
-  //     'api-key': 'avROr1S2KOP9G6BnMnIBBbPzBLxYVzoCdvNkNkJWVKZVzrgTW54uS83OP6wkXaul',
-  //     'Access-Control-Allow-Origin': '*',
-  //     'Access-Control-Allow-Methods': 'GET,HEAD,OPTIONS,POST,PUT,DELETE',
-  //     'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept, Authorization'
-  //   },
-  //   data: dataC
-  // };
-
-  // axios(config).then(function (response) {
-  //     // dataSet.push(response.data['documents'])
-  //     // console.log(JSON.stringify(response.data));
-  //     dataGet.push(response.data)
-
-  // })
-  // .catch(function (error) {
-  //     console.log(error);
-  // });
-
-  // // console.log(dataGet.length)
-  // dataGet.map(e=>{
-  //   console.log('data :'+e)
-  // })
-
-
-  // dataSet.forEach(e=>{
-  //   console.log(JSON.stringify(e))
-  // })
 
   //BRANCHE
 
