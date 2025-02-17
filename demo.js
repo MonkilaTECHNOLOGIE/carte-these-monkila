@@ -48,8 +48,12 @@ function showGeoJSONData(map) {
 }
 
 function addMarkerToGroup(group, coordinate, html) {
+  
+  var icon = new H.map.Icon('https://maps.google.com/mapfiles/ms/icons/blue-dot.png', {
+    size: { w: 40, h: 40 }
+  });
 
-  var marker = new H.map.Marker(coordinate);
+  var marker = new H.map.Marker(coordinate, { icon: icon });
   // add custom data to the marker
   marker.setData(html);
   group.addObject(marker);
