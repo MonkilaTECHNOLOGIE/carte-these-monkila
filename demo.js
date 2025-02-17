@@ -50,7 +50,7 @@ function showGeoJSONData(map) {
 function addMarkerToGroup(group, coordinate, html) {
   
   var icon = new H.map.Icon('https://maps.google.com/mapfiles/ms/icons/blue-dot.png', {
-    size: { w: 25, h: 25 }
+    size: { w: 15, h: 15 }
   });
 
   var marker = new H.map.Marker(coordinate, { icon: icon });
