@@ -336,7 +336,7 @@ var defaultLayers = platform.createDefaultLayers();
 
 
 var map = new H.Map(document.getElementById('map'), defaultLayers.vector.normal.map, {
-  zoom: 15,
+  zoom: 17,
   center: { lat: -4.499546448366036, lng: 15.203552938873946 },
   pixelRatio: window.devicePixelRatio || 1
 });
@@ -346,13 +346,10 @@ var map = new H.Map(document.getElementById('map'), defaultLayers.vector.normal.
 //     ppi: 320
 // });
 // map.setBaseLayer(mapLayer);
-
+var ui = H.ui.UI.createDefault(map, defaultLayers);
 window.addEventListener('resize', () => map.getViewPort().resize());
-
 var behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents(map));
 
-
-var ui = H.ui.UI.createDefault(map, defaultLayers);
 
 addInfoBubble(map);
 // showGeoJSONData(map);
